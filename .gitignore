@@ -1,0 +1,5 @@
+.DS_Store
+gems/
+.bundle/
+Fjordsfile
+Gemfile.lock

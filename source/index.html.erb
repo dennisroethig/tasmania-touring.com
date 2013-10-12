@@ -1,0 +1,219 @@
+---
+title: Paul Mascall
+---
+
+<div class="pure-g-r" id="layout">
+	
+	<div class="header pure-u-1">
+		<h1 class="pure-u-1">Paul Mascall <span>TASMANIA, Hobart – private charter touring with Paul Mascall.</span></h1>
+		<div class="contact">
+			<a href="mailto:paulmascall@bigpond.com">Email: paulmascall@bigpond.com</a>
+			<a href='tel:0419953972' title='0419953972' class='tel'>Mobile: 0419 953972</a>
+		</div>
+	</div>
+
+	<div class="pure-u-1 banner">
+		
+
+		<ul class="rslides">
+		  <li><img src="images/tasmania-1.jpg" alt=""></li>
+		  <li><img src="images/tasmania-2.jpg" alt=""></li>
+		  <li><img src="images/tasmania-3.jpg" alt=""></li>
+		  <li><img src="images/tasmania-4.jpg" alt=""></li>
+		</ul>
+
+	</div>
+
+	
+	
+	<div class="content">
+		<div class="pure-g-r">
+			<div class="pure-u-1-4" style="padding-top:1.5em;">
+				<div class="l-box">
+					<img src="images/paul_mascall.jpg" alt="Paul Mascall" style="width: 100%; height: auto;" class="polaroid">
+				</div>
+			</div>
+			<div class="pure-u-3-4">
+				<div class="l-box">
+					<h3 class="type-1">Your Guide Driver</h3>
+					<p>
+						Paul has over ten years of Tasmanian private charter touring experience.
+					</p>
+					<p> 
+						Public passenger vehicle licenced, Hobart Cruise Terminal secured area access licenced, current national police certificate, Australian business number registered and St John senior first aid accredited.
+					</p>
+					<p> 
+						City touring, wilderness, wildlife, history, art, recreation, fine dining and wining…Paul can host, advise and assist your visit to the Hobart region in particular and Tasmania generally, perfectly!
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="pure-g-r">
+			<div class="pure-u-1">
+				<div class="l-box">
+					<h3 class="type-1">Iconic locations</h3>
+
+					<div class="pure-g-r">
+						<div class="pure-u-1-2">
+							<ul class="content-list">
+								<li>Salamanca Markets</li>
+								<li>Constitution Dock</li>
+								<li>Battery Point</li>
+								<li>Mt Wellington</li>
+								<li>MONA</li>
+								<li>Tasmanian Museum and Art Gallery</li>
+								<li>Tahune Air Walk</li>
+								<li>Mt Field</li>
+							</ul>
+						</div>
+						<div class="pure-u-1-2">
+							<ul class="content-list">
+								<li>Russell Falls</li>
+								<li>Tall Trees Walk</li>
+								<li>Freycinet National Park</li>
+								<li>Wineglass Bay</li>
+								<li>Historic Richmond Village</li>
+								<li>Port Arthur Penitentary</li>
+								<li>Bonorong Wildlife Park</li>
+								<li>... and so much more!</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="pure-u-1">
+				<div class="l-box">
+					<h3 class="type-1">Value For Money</h3>
+
+					<div class="pure-g-r">
+						<div class="pure-u-1-2">
+							<p class="promo left">
+								Full Day Touring<br>
+								1-4 guests
+								<span class="price">$275*</span>
+							</p>
+						</div>
+						<div class="pure-u-1-2">
+							<p class="promo right">
+								Full Day Touring<br>
+								5-10 guests
+								<span class="price">$325*</span>
+							</p>
+						</div>
+					</div>
+					<p class="disclaimer">*any required entry fees, meals and other incidental charges are guest’s responsibility.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="content" id="image-gallery">
+		<hr>
+		<div class="pure-u-1">
+			<h3>Impressions</h3>
+		</div>
+		<div class="pure-g-r">
+
+			<% 8.times do |series|  %>
+
+				<% 4.times do |num|  %>
+
+					<%
+						num = (num+1) + (series*4)
+						if num < 10
+							num = "0" + num.to_s
+						end
+					%>
+					
+					<% if num.to_i < 33 %>
+
+						<div class="pure-u-1-4 preview">
+							<a href="#image-<%= num %>">
+								<img src="images/loading.gif" data-src="images/gallery/paul_mascall_0<%= num %>.jpg" alt="" class="lazy">
+							</a>
+						</div>
+
+					<% end %>
+
+				<% end %>
+
+				<% 4.times do |num|  %>
+					
+					<%
+						num = (num+1) + (series*4)
+						if num < 10
+							num = "0" + num.to_s
+						end
+					%>
+
+					<% if num.to_i < 33 %>
+
+						<div id="image-<%= num %>" class="pure-u-1 l-centered full-view">
+							<div class="full-view-wrapper">
+								<a href="#image-gallery" class="close-button">×</a>
+								<img src="images/loading2.gif" data-src="images/gallery/paul_mascall_0<%= num %>.jpg" alt="" class="lazy">
+							</div>
+						</div>
+
+					<% end %>
+
+				<% end %>
+
+			<% end %>
+
+		</div>
+
+		<div class="pure-g-r">
+
+			<div class="pure-u-1-3 preview" style="margin: 0 auto;">
+				<a href="#image-34">
+					<img src="images/loading.gif" data-src="images/gallery/paul_mascall_034.jpg" alt="" class="lazy">
+				</a>
+			</div>
+
+			<div class="pure-u-1-3 preview" style="margin: 0 auto;">
+				<a href="#image-33">
+					<img src="images/loading.gif" data-src="images/gallery/paul_mascall_033.jpg" alt="" class="lazy">
+				</a>
+			</div>
+
+			<div class="pure-u-1-3 preview" style="margin: 0 auto;">
+				<a href="#image-35">
+					<img src="images/loading.gif" data-src="images/gallery/paul_mascall_035.jpg" alt="" class="lazy">
+				</a>
+			</div>
+
+			<div id="image-34" class="pure-u-1 l-centered full-view">
+				<div class="full-view-wrapper">
+					<a href="#image-gallery" class="close-button">×</a>
+					<img src="images/loading2.gif" data-src="images/gallery/paul_mascall_034.jpg" alt="" class="lazy">
+				</div>
+			</div>
+
+			<div id="image-33" class="pure-u-1 l-centered full-view">
+				<div class="full-view-wrapper">
+					<a href="#image-gallery" class="close-button">×</a>
+					<img src="images/loading2.gif" data-src="images/gallery/paul_mascall_033.jpg" alt="" class="lazy">
+				</div>
+			</div>
+
+			<div id="image-35" class="pure-u-1 l-centered full-view">
+				<div class="full-view-wrapper">
+					<a href="#image-gallery" class="close-button">×</a>
+					<img src="images/loading2.gif" data-src="images/gallery/paul_mascall_035.jpg" alt="" class="lazy">
+				</div>
+			</div>
+
+		</div>
+
+		<div class="footer pure-u-1">
+			<div class="imprint">
+				<p>Paul Mascall - ABN 20560310195</p>
+			</div>
+		</div>
+
+	</div>
+
+</div>
